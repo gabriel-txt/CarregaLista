@@ -1,9 +1,9 @@
 -- =========================================
 -- 1. LIMPEZA INICIAL
 -- =========================================
-DROP DATABASE IF EXISTS loja;
-CREATE DATABASE loja;
-USE loja;
+DROP DATABASE IF EXISTS pedidos_db;
+CREATE DATABASE pedidos_db;
+USE pedidos_db;
 
 -- =========================================
 -- 2. TABELA STAGING (IMPORTAÇÃO DO TXT)
@@ -226,8 +226,8 @@ DELIMITER ;
 -- 8. EXECUÇÃO
 -- =========================================
 
-CALL priorizar_pedidos();
-CALL atender_pedidos();
+-- CALL priorizar_pedidos();
+-- CALL atender_pedidos();
 
 -- =========================================
 -- 9. CONSULTA FINAL
