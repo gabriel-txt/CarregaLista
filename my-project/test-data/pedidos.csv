@@ -1,0 +1,5 @@
+order-id,order-item-id,purchase-date,payments-date,buyer-email,buyer-name,cpf,buyer-phone-number,sku,product-name,quantity-purchased,currency,item-price,ship-service-level,ship-address-1,ship-city,ship-state,ship-postal-code,ship-country
+MLB-123456,MLB-123456-001,2026-06-01,2026-06-01,cliente1@test.com,Cliente Um,12345678901,11987654321,SKU001,Produto A,2,BRL,99.90,Standard,Rua A 123,São Paulo,SP,01234567,BR
+MLB-123456,MLB-123456-002,2026-06-01,2026-06-01,cliente1@test.com,Cliente Um,12345678901,11987654321,SKU002,Produto B,1,BRL,149.90,Standard,Rua A 123,São Paulo,SP,01234567,BR
+MLB-789012,MLB-789012-001,2026-06-02,2026-06-02,cliente2@test.com,Cliente Dois,98765432109,11912345678,SKU001,Produto A,3,BRL,99.90,Express,Rua B 456,Rio de Janeiro,RJ,20000000,BR
+MLB-789012,MLB-789012-002,2026-06-02,2026-06-02,cliente2@test.com,Cliente Dois,98765432109,11912345678,SKU003,Produto C,1,BRL,199.90,Express,Rua B 456,Rio de Janeiro,RJ,20000000,BR

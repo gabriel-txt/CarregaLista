@@ -1,0 +1,8 @@
+{
+  "chat.tools.terminal.autoApprove": {
+    "/^npx prisma generate$/": {
+      "approve": true,
+      "matchCommandLine": true
+    }
+  }
+}
